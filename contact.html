@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alconet</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header>
+	<a href="index.html"><img class="logo cf" src="img/logo.png" alt="logo"></a>
+	<ul class="menu cf">
+		<li><a href="index.html">Main</a></li>
+		<li><a href="catalogue.html">Shipping containers</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</header>
+<hr>
+<main>
+	<div class="contact">
+	<h3>Alconet</h3>
+	<p>Theemsweg 48 <br>
+	3197 KM Rotterdam
+	</p>
+	<p>Port number: 5120 <br>
+	Mailbox 54558 <br>
+	3008 KB Rotterdam
+	</p>
+	<p>T. 0031 (0) 181 25 44 00<br>
+	F. 0031 (0) 181 25 44 09<br>
+	E. info@alconet.nl
+	</p>
+	<h3>Depot operations</h3>
+	<p>T. 0031 (0) 181 23 42 42
+	</p>
+	<h3>Container Gate</h3>
+	<p>T. 0031 (0) 181 25 44 04</p>
+	</div>
+	<div class="map">
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:400px;'><div id='gmap_canvas' style='height:400px;width:400px;'></div><div><small><a href="http://embedgooglemaps.com">embedgooglemaps.com</a></small></div><div><small><a href="https://onlinepartnersuchekostenlos.de/">immer aktuell</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(51.9244201,4.477732500000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(51.9244201,4.477732500000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Theemsweg 48</strong><br>rotterdam, Neatherlands<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+</div>
+	<div class="cont_form">
+		<h2><a href="#main">Contact us</a></h2>
+		<p>Your name: <input type="text" placeholder="Name"/></p>
+		<p>Your email: <input type="email" placeholder="email"/></p>
+		<p>Subject: <input type="text" placeholder="Subject"/></p>
+		<p>Message:</p><textarea rows="8" cols="45" placeholder="Your request"></textarea><br>
+		<button type="submit" class="button" formmethod="post" formenctype="multipart/form-data">Send</button>
+	</div>
+</main>
+<footer>
+	<hr>
+	<p class="footer">Alconet copyright 2002-2016 &reg; All rights reserved</p>
+</footer>
+</body>
+</html>
